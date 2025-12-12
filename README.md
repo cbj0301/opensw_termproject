@@ -4,7 +4,7 @@
 It captures the user's voice input via a microphone, converts the Korean speech into text, and immediately translates it into one or more user-specified target languages (e.g., English, Japanese). The system is designed to perform continuous speech recognition using background threads, ensuring the main program flow remains uninterrupted.
 
 ## Key points
------------------
+
 Multi-Target Translation: Capable of translating a single voice input into multiple languages simultaneously (handled as a list).
 Asynchronous Processing: Utilizes the listen_in_background function to continuously detect and process voice in the background without blocking the main execution thread.
 Noise Adjustment: Enhances recognition accuracy by analyzing ambient noise levels and dynamically calibrating thresholds using adjust_for_ambient_noise.
@@ -13,7 +13,7 @@ Google API Integration:
 - Translation: Utilizes the deep_translator library to access Google Translate services.
 
 ## Requirements
------------------
+
 **Hardware & Network**
 Microphone: Essential for capturing voice input.
 Internet Connection: Required for communicating with Google STT and Translation servers.
